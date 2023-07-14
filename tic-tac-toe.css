@@ -1,0 +1,117 @@
+button{
+  cursor : pointer;
+}
+
+.ttt-user-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: solid;
+  border-width: 0.2px;
+  border-radius: 10px;
+  width: 1200px;
+  margin-left: 100px;
+  padding-top: 10px;  
+  padding-bottom: 10px;
+} 
+
+.game-block{
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  margin-top: 50px;
+  
+}
+
+.block{
+  border: solid;
+  border-color: green;
+  border-radius: 10px;
+  border-width: 0.2px;
+  width: 145px;
+  height: 145px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+
+.restart-button{
+  margin-top: 10px;
+}
+
+
+.block-button{
+  background-color:aliceblue;
+  font-weight: bold;
+  font-size: 50px;
+  width: 145px;
+  height: 145px;
+  border: none;
+  border-radius: 10px;
+}
+
+
+.used{
+  background-color: lightcyan;
+}
+
+
+.player{
+  font-size: 24px;
+  color: rgb(77, 77, 77);
+}
+
+.player-box{
+  background-color: orangered;
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  align-items: space-between;
+  justify-content: space-evenly;
+}
+
+.player-1,
+.player-2{
+  padding: 8px 20px 8px 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.result{
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.restart-button{
+  margin: 0px;
+  background-color: green;
+  width: 120px;
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  transition: background-color 10ms, opacity 10ms;
+}
+
+.restart-button:hover{
+  background-color: rgb(48, 143, 48);
+}
+
+.restart-button:active{
+  opacity: 0.8;
+}
+
+.winner-text{
+  padding-left: 15px;
+  width: 200px;
+  height: 40px;
+  margin: 0px;
+  font-size: 20px;
+  color: orangered;
+}
+

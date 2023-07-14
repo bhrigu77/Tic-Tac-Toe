@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tic-tac-toe.css">
+  </head>
+  <body>
+    <div class="ttt-user-box">
+      <div class="player-box">
+        <p class="player player-1">
+          Player 1 : X
+        </p>
+        <p class="player player-2"> 
+          Player 2 : O 
+        </p>
+      </div>
+  
+  
+      <div class="game-block">
+        <div class="block">
+          <button class="block-button button-11  button b-11 " onclick="playGame('.button-11')"></button>
+        </div>
+        <div class="block">
+          <button class="block-button button-12  button b-12"  onclick="playGame('.button-12')"></button>
+        </div>
+        <div class="block">
+          <button class="block-button button-13  button b-13"  onclick="playGame('.button-13')"></button>
+        </div>
+        <div class="block">
+          <button class="block-button button-21  button b-21" onclick="playGame('.button-21')"></button>
+        </div>
+        <div class="block">
+          <button class="block-button button-22  button b-22" onclick="playGame('.button-22')"></button>
+        </div>
+        <div class="block">
+          <button class="block-button button-23  button b-23" onclick="playGame('.button-23')"></button>
+        </div>
+        <div class="block">
+          <button class="block-button button-31  button b-31" onclick="playGame('.button-31')"></button>
+        </div>
+        <div class="block">
+          <button class="block-button button-32  button b-32" onclick="playGame('.button-32')"></button>
+        </div>
+        <div class="block">
+          <button class="block-button button-33  button b-33" onclick="playGame('.button-33')"></button>
+        </div>
+        
+  
+      </div>
+      <div class="result">
+        <button class="restart-button" onclick="resetButton()">Restart</button>
+        <div class="winner-text-box"><p class="winner-text"></p></div>
+      </div>
+
+    </div>
+
+    
+    <script src="tic-tac-toe.js"></script>
+  </body>
+</html>
+
