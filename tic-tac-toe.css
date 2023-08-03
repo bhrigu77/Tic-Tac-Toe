@@ -3,6 +3,7 @@ button{
 }
 
 .ttt-user-box{
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,8 +11,10 @@ button{
   border: solid;
   border-width: 0.2px;
   border-radius: 10px;
-  width: 1200px;
-  margin-left: 100px;
+  min-width: 450px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 10px;  
   padding-bottom: 10px;
 } 
@@ -21,7 +24,39 @@ button{
   grid-template-columns: 150px 150px 150px;
   margin-top: 50px;
   
+  
 }
+/*
+@media only screen and (max-width: 500px){
+  .game-block{
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    margin-top: 50px;
+  }
+  .block{
+    border: solid;
+    border-color: green;
+    border-radius: 10px;
+    border-width: 0.2px;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .block-button{
+    background-color:aliceblue;
+    font-weight: bold;
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+  }
+}*/
+
 
 .block{
   border: solid;
@@ -32,6 +67,8 @@ button{
   height: 145px;
   margin-bottom: 2px;
   margin-top: 2px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
